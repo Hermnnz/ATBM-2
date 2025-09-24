@@ -17,7 +17,8 @@ for i in plaintext:
     else:
         for key,value in Bangchucai.items():
             if i==value:
-                x=(key+k)%25
+                x=(key+k)%26
                 print(Bangchucai[x], end='')
                 break
     
+
